@@ -1,10 +1,10 @@
 package com.dz;
 
 public class Plate extends Dish{
-    int radius;
-    int deep;
-    double volume;
-    boolean pattern;
+    protected int radius;
+    protected int deep;
+    protected double volume;
+    protected boolean pattern;
 
     public Plate(int radius, int deep, boolean pattern) {
         this.radius = radius;

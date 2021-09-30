@@ -1,7 +1,7 @@
 package com.dz;
 
 public class Spoon extends Dish{
-    String type = "dinner";
+    protected String type = "dinner";
 
     public Spoon(String type) {
         this.type = type;

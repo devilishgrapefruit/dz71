@@ -1,7 +1,7 @@
 package com.dz;
 
 public class Fork extends Dish{
-    String type = "dinner";
+    protected String type = "dinner";
 
     public Fork(String type) {
         this.type = type;

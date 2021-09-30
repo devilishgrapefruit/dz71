@@ -2,9 +2,10 @@ package com.dz;
 
 
 public class Pan  extends  Dish{
-    int radius;
-    int deep;
-    double volume;
+    protected int radius;
+    protected int deep;
+    protected double volume;
+
     public Pan(int radius, int deep) {
         this.radius = radius;
         this.deep = deep;

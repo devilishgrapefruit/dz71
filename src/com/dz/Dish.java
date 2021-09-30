@@ -2,9 +2,9 @@ package com.dz;
 
 
 public abstract class Dish {
-    String color = "white";
-    String material = "aluminum";
-    boolean pollution = false;
+    protected String color = "white";
+    protected String material = "aluminum";
+    protected boolean pollution = false;
 
     public String getColor() {
         return color;

@@ -1,9 +1,9 @@
 package com.dz;
 
 public class Ladle extends Dish{
-    int radius;
-    int deep;
-    double volume;
+    protected int radius;
+    protected int deep;
+    protected double volume;
 
     public Ladle(int radius, int deep) {
         this.radius = radius;

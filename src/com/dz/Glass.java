@@ -1,7 +1,7 @@
 package com.dz;
 
 public class Glass extends Dish{
-    double volume;
+    protected double volume;
 
     public Glass(double volume) {
         this.volume = volume;
